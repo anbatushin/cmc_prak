@@ -1,0 +1,7 @@
+program {
+	string a, b;
+	read(a);
+	read(b);
+
+	write(a > b);
+}

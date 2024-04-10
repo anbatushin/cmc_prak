@@ -1,0 +1,9 @@
+program {
+	int i, j;
+	read(i);
+/*
+	read(j);
+*/
+	i = i + j; // error (значение j неизестно)
+	write("There is no errors...");
+}

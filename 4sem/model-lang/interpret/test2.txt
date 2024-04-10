@@ -1,0 +1,10 @@
+program
+{
+	int a = 5;
+	write("\nA = ", a);
+	a = a + 10;
+	write("\nA = ", a);
+	for (a = 1; a < 10; a = a + 1) {
+		write("\n", a * 10);
+	}
+}
